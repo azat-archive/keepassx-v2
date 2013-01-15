@@ -1,1 +1,40 @@
+# cmake
 CMakeLists.txt.*
+*.cmake
+CMakeFiles
+CMakeCache*
+Makefile
+
+# qt
+moc_*
+ui_*.h
+
+# binaries
+*.[ao]
+*.so
+
+# vim
+*.swp
+
+# other generated stuff
+src/config-keepassx.h
+src/keepassx
+tests/config-keepassx-tests.h
+tests/testautotype
+tests/testcryptohash
+tests/testdeletedobjects
+tests/testentrymodel
+tests/testgroup
+tests/testgroupmodel
+tests/testhashedblockstream
+tests/testkeepass1reader
+tests/testkeepass2randomstream
+tests/testkeepass2reader
+tests/testkeepass2writer
+tests/testkeepass2xmlreader
+tests/testkeys
+tests/testmodified
+tests/testqsavefile
+tests/testsymmetriccipher
+tests/testwildcardmatcher
+utils/kdbx-extract
